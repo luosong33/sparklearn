@@ -1,23 +1,21 @@
-import org.apache.spark.sql.SparkSession
+import org.apache.spark.{SparkConf, SparkContext}
+
 
 object WordCount {
 
   def main(args: Array[String]): Unit = {
+    val conf = new SparkConf()
+      .setMaster("local[2]")
+      .setAppName("WordCount_")
+    val sc = new SparkContext(conf)
 
-    val spark = SparkSession
-      .builder
-      .appName(s"${this.getClass.getSimpleName}")
-      .getOrCreate()
-    val sc = spark.sparkContext
-
-    val file_path_in = "file:///home/luosong/workspace/sparklearn/WordCount/data/users.txt"
-    val file_path_out = "file:///home/luosong/workspace/sparklearn/WordCount/data/out"
-//    var file_path_out = "hdfs://nn1:8020/bigdata/ls/wc/out"
-
-    sc.textFile(file_path_in)
-      .flatMap(_.split(" ")).map((_, 1))
-      .reduceByKey(_ + _, 1).sortBy(_._2, false)
-      .saveAsTextFile(file_path_out)
+    sc.textFile("/home/luosong/xxx.txt")
+      .flatMap(line => line.split(" "))
+      .map(word => (word, 1))
+      .reduceByKey(_ + _)  // 关键代码三行
+      .sortBy(_._2, false)
+      .repartition(1)
+      .saveAsTextFile("/home/luosong/out")
 
   }
 
