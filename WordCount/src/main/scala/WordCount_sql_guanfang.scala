@@ -7,6 +7,7 @@ object WordCount_sql_guanfang {
 
     val spark = SparkSession
       .builder
+      .master("local[2]")
       .appName(s"${this.getClass.getSimpleName}")
       .getOrCreate()
     val sc = spark.sparkContext

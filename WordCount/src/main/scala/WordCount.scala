@@ -3,7 +3,7 @@ import org.apache.spark.{SparkConf, SparkContext}
 
 object WordCount {
 
-  // 个人用例
+  // 个人用例 success
   def main(args: Array[String]): Unit = {
     val conf = new SparkConf()
       .setMaster("local[2]")
