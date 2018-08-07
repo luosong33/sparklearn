@@ -2,6 +2,7 @@ import org.apache.spark.sql.SparkSession
 
 object WordCount_sql_guanfang {
 
+  // 官方用例
   def main(args: Array[String]): Unit = {
 
     val spark = SparkSession
