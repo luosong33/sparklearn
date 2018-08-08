@@ -18,7 +18,7 @@ object RunGraph extends Serializable {
   def main(args: Array[String]): Unit = {
     val spark = SparkSession
       .builder()
-      .master("local[4]")
+      .master("local[2]")
       .appName(s"${this.getClass.getSimpleName}")
       .getOrCreate()
     import spark.implicits._
