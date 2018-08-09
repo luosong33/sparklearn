@@ -1,0 +1,32 @@
+<property>
+    <name>hbase.table.sanity.checks</name>
+    <value>false</value>
+</property>
+<property>
+    <name>hbase.regionserver.wal.codec</name>
+    <value>org.apache.hadoop.hbase.regionserver.wal.IndexedWALEditCodec</value>
+</property>
+<property>
+    <name>phoenix.query.keepAliveMs</name>
+    <value>3600000</value>
+</property>
+<property>
+    <name>hbase.master.loadbalancer.class</name>
+    <value>org.apache.phoenix.hbase.index.balancer.IndexLoadBalancer</value>
+    <description>phoenix_optimization</description>
+</property>
+<property>
+    <name>phoenix.query.timeoutMs</name>
+    <value>3600000</value>
+    <description>phoenix_optimization</description>
+</property>
+<property>
+    <name>hbase.client.ipc.pool.type</name>
+    <value>RoundRobinPool</value>
+    <description>phoenix_optimization</description>
+</property>
+<property>
+    <name>hbase.client.ipc.pool.size</name>
+    <value>10</value>
+    <description>phoenix_optimization</description>
+</property>
