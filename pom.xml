@@ -12,6 +12,7 @@
         <module>WordCount</module>
         <module>graphx</module>
         <module>sql</module>
+        <module>util</module>
     </modules>
 
     <properties>

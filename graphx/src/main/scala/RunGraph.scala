@@ -12,10 +12,13 @@ import org.apache.spark.sql.{Dataset, SparkSession, Row}
 import org.apache.spark.sql.functions._
 
 import scala.xml._
+import org.apache.log4j.{Level, Logger}
 
 object RunGraph extends Serializable {
+  Logger.getLogger("org").setLevel(Level.ERROR)
 
   def main(args: Array[String]): Unit = {
+    val starttime = System.currentTimeMillis
     val spark = SparkSession
       .builder()
       .master("local[2]")
@@ -100,6 +103,8 @@ object RunGraph extends Serializable {
 
     val hist = paths.map(_._3).countByValue()
     hist.toSeq.sorted.foreach(println)
+    val endtime = System.currentTimeMillis
+    println(DateUtil.nowString + " 耗时为： " + (endtime - starttime) + "msec")
   }
 
   def avgClusteringCoef(graph: Graph[_, _]): Double = {
