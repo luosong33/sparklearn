@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/WordCount/WordCount.iml" filepath="$PROJECT_DIR$/WordCount/WordCount.iml" />
+      <module fileurl="file://$PROJECT_DIR$/graphx/graphx.iml" filepath="$PROJECT_DIR$/graphx/graphx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/sparklearn.iml" filepath="$PROJECT_DIR$/.idea/sparklearn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sql/sql.iml" filepath="$PROJECT_DIR$/sql/sql.iml" />
+      <module fileurl="file://$PROJECT_DIR$/util/util.iml" filepath="$PROJECT_DIR$/util/util.iml" />
+    </modules>
+  </component>
+</project>

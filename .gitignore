@@ -19,11 +19,6 @@
 *.tar.gz
 *.rar
 
-.idea/
-sparklearn.iml
 graphx/target/
-graphx/graphx.iml
 sql/target/
-sql/sql.iml
 WordCount/target/
-WordCount/WordCount.iml
