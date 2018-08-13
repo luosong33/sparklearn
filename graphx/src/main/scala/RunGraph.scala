@@ -21,7 +21,7 @@ object RunGraph extends Serializable {
     val starttime = System.currentTimeMillis
     val spark = SparkSession
       .builder()
-      .master("local[2]")
+      .master("local[8]")
       .appName(s"${this.getClass.getSimpleName}")
       .getOrCreate()
     import spark.implicits._
@@ -33,8 +33,10 @@ object RunGraph extends Serializable {
     val topics = medline.flatMap(mesh => mesh).toDF("topic")
     topics.createOrReplaceTempView("topics")
     val topicDist = spark.sql("SELECT topic, COUNT(*) cnt FROM topics GROUP BY topic ORDER BY cnt DESC")
+    println("SELECT topic, COUNT(*) cnt FROM topics GROUP BY topic ORDER BY cnt DESC")
     topicDist.show()
     topicDist.createOrReplaceTempView("topic_dist")
+    println("SELECT cnt, COUNT(*) dist FROM topic_dist GROUP BY cnt ORDER BY dist DESC LIMIT 10")
     spark.sql("SELECT cnt, COUNT(*) dist FROM topic_dist GROUP BY cnt ORDER BY dist DESC LIMIT 10").show()
 
     val topicPairs = medline.flatMap(_.sorted.combinations(2)).toDF("pairs")
@@ -44,6 +46,7 @@ object RunGraph extends Serializable {
 
     cooccurs.createOrReplaceTempView("cooccurs")
     println("Number of unique co-occurrence pairs: " + cooccurs.count())
+    println("SELECT pairs, cnt FROM cooccurs ORDER BY cnt DESC LIMIT 10")
     spark.sql("SELECT pairs, cnt FROM cooccurs ORDER BY cnt DESC LIMIT 10").show()
 
     val vertices = topics.map { case Row(topic: String) => (hashId(topic), topic) }.toDF("hash", "topic")
@@ -58,6 +61,7 @@ object RunGraph extends Serializable {
     val connectedComponentGraph = topicGraph.connectedComponents()
     val componentDF = connectedComponentGraph.vertices.toDF("vid", "cid")
     val componentCounts = componentDF.groupBy("cid").count()
+    println("64  count")
     componentCounts.orderBy(desc("count")).show()
 
     val topicComponentDF = topicGraph.vertices.innerJoin(
@@ -67,6 +71,7 @@ object RunGraph extends Serializable {
     topicComponentDF.where("cid = -2062883918534425492").show()
 
     val campy = spark.sql("SELECT * FROM topic_dist WHERE topic LIKE '%ampylobacter%'")
+    println("SELECT * FROM topic_dist WHERE topic LIKE '%ampylobacter%'")
     campy.show()
 
     val degrees: VertexRDD[Int] = topicGraph.degrees.cache()

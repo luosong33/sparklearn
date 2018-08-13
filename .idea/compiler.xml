@@ -12,12 +12,12 @@
         <module name="WordCount" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="graphx" target="1.8.0_152-release" />
-      <module name="sparklearn" target="1.5" />
-      <module name="sql" target="1.5" />
-      <module name="util" target="1.5" />
-      <module name="WordCount" target="1.8.0_152-release" />
+    <bytecodeTargetLevel target="1.8">
+      <module name="graphx" target="1.8" />
+      <module name="sparklearn" target="1.8" />
+      <module name="sql" target="1.8" />
+      <module name="util" target="1.8" />
+      <module name="WordCount" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
