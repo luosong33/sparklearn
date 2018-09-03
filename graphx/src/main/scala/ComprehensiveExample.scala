@@ -3,23 +3,25 @@ import org.apache.spark.sql.SparkSession
 
 object ComprehensiveExample {
 
+  /* 官方最后一个案例 */
   def main(args: Array[String]): Unit = {
     // Creates a SparkSession.
     val spark = SparkSession
       .builder
       .appName(s"${this.getClass.getSimpleName}")
+      .master("local[*]")
       .getOrCreate()
     val sc = spark.sparkContext
 
     // $example on$
     // Load my user data and parse into tuples of user id and attribute list
 //    val users = (sc.textFile("data/users.txt")
-    val users = (sc.textFile("file:///home/luosong/workspace/spark-dataanalysis/graphx/data/users.txt")
+    val users = (sc.textFile("D:\\workspace\\sparklearn\\data\\users.txt")
       .map(line => line.split(",")).map( parts => (parts.head.toLong, parts.tail) ))
 
     // Parse the edge data which is already in userId -> userId format
 //    val followerGraph = GraphLoader.edgeListFile(sc, "data/graphx/followers.txt")
-    val followerGraph = GraphLoader.edgeListFile(sc, "file:///home/luosong/workspace/spark-dataanalysis/graphx/data/graphx/followers.txt")
+    val followerGraph = GraphLoader.edgeListFile(sc, "D:\\workspace\\sparklearn\\data\\followers.txt")
 
     // Attach the user attributes
     val graph = followerGraph.outerJoinVertices(users) {
@@ -40,7 +42,9 @@ object ComprehensiveExample {
       case (uid, attrList, None) => (0.0, attrList.toList)
     }
 
+    println("------------------------start------------------------")
     println(userInfoWithPageRank.vertices.top(5)(Ordering.by(_._2._1)).mkString("\n"))
+    println("------------------------end------------------------")
     // $example off$
 
     spark.stop()

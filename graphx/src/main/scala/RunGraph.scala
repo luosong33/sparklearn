@@ -21,13 +21,13 @@ object RunGraph extends Serializable {
     val starttime = System.currentTimeMillis
     val spark = SparkSession
       .builder()
-      .master("local[8]")
+      .master("local[8]")  // local[8] 3626509msec
       .appName(s"${this.getClass.getSimpleName}")
       .getOrCreate()
     import spark.implicits._
 
 //    val medlineRaw: Dataset[String] = loadMedline(spark, "hdfs://localhost:9000/user/ds/medline")
-    val medlineRaw: Dataset[String] = loadMedline(spark, "D:\\Download\\graphx\\*")
+    val medlineRaw: Dataset[String] = loadMedline(spark, "D:\\Download\\graphx")
     val medline: Dataset[Seq[String]] = medlineRaw.map(majorTopics).cache()
 
     val topics = medline.flatMap(mesh => mesh).toDF("topic")
@@ -49,6 +49,7 @@ object RunGraph extends Serializable {
     println("SELECT pairs, cnt FROM cooccurs ORDER BY cnt DESC LIMIT 10")
     spark.sql("SELECT pairs, cnt FROM cooccurs ORDER BY cnt DESC LIMIT 10").show()
 
+    //  对结果校验，确保每个主题的哈希标识符是唯一的
     val vertices = topics.map { case Row(topic: String) => (hashId(topic), topic) }.toDF("hash", "topic")
     val edges = cooccurs.map { case Row(topics: Seq[_], cnt: Long) =>
       val ids = topics.map(_.toString).map(hashId).sorted
@@ -74,6 +75,7 @@ object RunGraph extends Serializable {
     println("SELECT * FROM topic_dist WHERE topic LIKE '%ampylobacter%'")
     campy.show()
 
+    // 在graph对象上调用degrees方法得到每个顶点的度（顶点的边数）
     val degrees: VertexRDD[Int] = topicGraph.degrees.cache()
     degrees.map(_._2).stats()
     degrees.innerJoin(topicGraph.vertices) {
