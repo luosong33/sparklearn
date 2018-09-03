@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="2dc3eaf6-5916-4fd8-9954-6342df00ffa7" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/scala_sdk_2_11_8.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/followers.txt" />
@@ -12,6 +13,9 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/util.iml" afterPath="$PROJECT_DIR$/util/util.iml" />
       <change type="MOVED" beforePath="$PROJECT_DIR$/WordCount/src/main/scala/WordCount_sql_guanfang.scala" afterPath="$PROJECT_DIR$/WordCount/src/main/scala/WordCount_sql_org.scala" />
     </list>
+=======
+    <list default="true" id="2dc3eaf6-5916-4fd8-9954-6342df00ffa7" name="Default" comment="" />
+>>>>>>> 2de32432abfd99b06a1e1057b7f0f615f14e319d
     <ignored path="$PROJECT_DIR$/graphx/target/" />
     <ignored path="$PROJECT_DIR$/WordCount/target/" />
     <ignored path="$PROJECT_DIR$/util/target/" />
@@ -29,13 +33,19 @@
       <file leaf-file-name="Test.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/graphx/src/main/scala/Test.scala">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="414">
               <caret line="18" column="43" lean-forward="false" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="43" />
+=======
+            <state relative-caret-position="345">
+              <caret line="15" column="27" lean-forward="false" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+>>>>>>> 2de32432abfd99b06a1e1057b7f0f615f14e319d
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="OrgDome.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/graphx/src/main/scala/OrgDome.scala">
           <provider selected="true" editor-type-id="text-editor">
@@ -53,11 +63,19 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1081">
               <caret line="65" column="44" lean-forward="false" selection-start-line="65" selection-start-column="27" selection-end-line="65" selection-end-column="44" />
+=======
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+>>>>>>> 2de32432abfd99b06a1e1057b7f0f615f14e319d
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="ComprehensiveExample.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/graphx/src/main/scala/ComprehensiveExample.scala">
           <provider selected="true" editor-type-id="text-editor">
@@ -123,11 +141,54 @@
                 <element signature="e#7544#7759#0" expanded="false" />
                 <element signature="e#7763#8432#0" expanded="false" />
                 <element signature="e#8436#8715#0" expanded="false" />
+=======
+      <file leaf-file-name="RunGraph.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/graphx/src/main/scala/RunGraph.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="30" column="75" lean-forward="true" selection-start-line="30" selection-start-column="75" selection-end-line="30" selection-end-column="75" />
+              <folding>
+                <element signature="e#2288#2424#0" expanded="false" />
+                <element signature="e#2335#2418#0" expanded="false" />
+                <element signature="e#2925#2966#0" expanded="false" />
+                <element signature="e#2967#3039#0" expanded="false" />
+                <element signature="e#3447#3508#0" expanded="false" />
+                <element signature="e#3819#3899#0" expanded="false" />
+                <element signature="e#4437#4492#0" expanded="false" />
+                <element signature="e#4898#5299#0" expanded="false" />
+                <element signature="e#5143#5233#0" expanded="false" />
+                <element signature="e#5303#6038#0" expanded="false" />
+                <element signature="e#5496#5533#0" expanded="false" />
+                <element signature="e#5608#5731#0" expanded="false" />
+                <element signature="e#5650#5680#0" expanded="false" />
+                <element signature="e#5686#5724#0" expanded="false" />
+                <element signature="e#5864#6015#0" expanded="false" />
+                <element signature="e#5888#6009#0" expanded="false" />
+                <element signature="e#5894#6009#0" expanded="false" />
+                <element signature="e#5919#6001#0" expanded="false" />
+                <element signature="e#5931#5963#0" expanded="false" />
+                <element signature="e#5969#6001#0" expanded="false" />
+                <element signature="e#6042#6343#0" expanded="false" />
+                <element signature="e#6132#6271#0" expanded="false" />
+                <element signature="e#6186#6265#0" expanded="false" />
+                <element signature="e#6347#6480#0" expanded="false" />
+                <element signature="e#6484#6775#0" expanded="false" />
+                <element signature="e#6701#6737#0" expanded="false" />
+                <element signature="e#6743#6771#0" expanded="false" />
+                <element signature="e#6779#6984#0" expanded="false" />
+                <element signature="e#6988#7444#0" expanded="false" />
+                <element signature="e#7315#7396#0" expanded="false" />
+                <element signature="e#7448#7663#0" expanded="false" />
+                <element signature="e#7667#8336#0" expanded="false" />
+                <element signature="e#7705#7788#0" expanded="false" />
+                <element signature="e#8340#8619#0" expanded="false" />
+>>>>>>> 2de32432abfd99b06a1e1057b7f0f615f14e319d
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="WordCount.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WordCount/src/main/scala/WordCount.scala">
           <provider selected="true" editor-type-id="text-editor">
@@ -146,15 +207,31 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+=======
+      <file leaf-file-name="DateUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/util/src/main/java/DateUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="13" column="7" lean-forward="false" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+              <folding />
+>>>>>>> 2de32432abfd99b06a1e1057b7f0f615f14e319d
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="ScalaDateUtil.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/util/src/main/scala/ScalaDateUtil.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+=======
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/graphx/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="644">
+              <caret line="28" column="47" lean-forward="false" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
+>>>>>>> 2de32432abfd99b06a1e1057b7f0f615f14e319d
               <folding />
             </state>
           </provider>
@@ -165,10 +242,13 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>show</find>
+<<<<<<< HEAD
       <find>combinations</find>
       <find>degrees</find>
       <find>ArrayBuffer</find>
       <find>scala</find>
+=======
+>>>>>>> 2de32432abfd99b06a1e1057b7f0f615f14e319d
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -187,6 +267,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
+<<<<<<< HEAD
         <option value="D:/.m2/repository/org/apache/spark/spark-graphx_2.11/2.1.2/spark-graphx_2.11-2.1.2.jar!/org/apache/spark/graphx/GraphLoader.class" />
         <option value="$PROJECT_DIR$/util/src/main/scala/DateUtil.scala" />
         <option value="$PROJECT_DIR$/graphx/src/main/scala/RunGraph.scala" />
@@ -195,6 +276,9 @@
         <option value="$PROJECT_DIR$/graphx/src/main/scala/Test.scala" />
         <option value="$PROJECT_DIR$/graphx/src/main/scala/OrgDome.scala" />
         <option value="$PROJECT_DIR$/graphx/src/main/scala/ComprehensiveExample.scala" />
+=======
+        <option value="$PROJECT_DIR$/graphx/src/main/scala/RunGraph.scala" />
+>>>>>>> 2de32432abfd99b06a1e1057b7f0f615f14e319d
       </list>
     </option>
   </component>
@@ -261,7 +345,10 @@
     <panes>
       <pane id="AndroidView" />
       <pane id="Scope" />
+<<<<<<< HEAD
       <pane id="Scratches" />
+=======
+>>>>>>> 2de32432abfd99b06a1e1057b7f0f615f14e319d
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -272,11 +359,14 @@
             <path>
               <item name="sparklearn" type="b2602c69:ProjectViewProjectNode" />
               <item name="sparklearn" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sparklearn" type="b2602c69:ProjectViewProjectNode" />
               <item name="sparklearn" type="462c0819:PsiDirectoryNode" />
+=======
+>>>>>>> 2de32432abfd99b06a1e1057b7f0f615f14e319d
               <item name="graphx" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -300,6 +390,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
             </path>
+<<<<<<< HEAD
             <path>
               <item name="sparklearn" type="b2602c69:ProjectViewProjectNode" />
               <item name="sparklearn" type="462c0819:PsiDirectoryNode" />
@@ -360,22 +451,35 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
             </path>
+=======
+>>>>>>> 2de32432abfd99b06a1e1057b7f0f615f14e319d
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+<<<<<<< HEAD
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="Scala Compiler" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../spark-master" />
     <property name="project.structure.last.edited" value="Libraries" />
+=======
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bgrm" />
+    <property name="project.structure.last.edited" value="Modules" />
+>>>>>>> 2de32432abfd99b06a1e1057b7f0f615f14e319d
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
@@ -384,6 +488,8 @@
       <recent name="D:\workspace\sparklearn\data" />
     </key>
   </component>
+=======
+>>>>>>> 2de32432abfd99b06a1e1057b7f0f615f14e319d
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -396,6 +502,7 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Application.ComprehensiveExample">
     <configuration name="ComprehensiveExample" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -439,6 +546,9 @@
       <module name="graphx" />
       <envs />
     </configuration>
+=======
+  <component name="RunManager" selected="Application.RunGraph">
+>>>>>>> 2de32432abfd99b06a1e1057b7f0f615f14e319d
     <configuration name="RunGraph" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="RunGraph" />
@@ -534,6 +644,7 @@
       <properties />
       <listeners />
     </configuration>
+<<<<<<< HEAD
     <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.RunGraph" />
       <item index="1" class="java.lang.String" itemvalue="Application.DateUtil" />
@@ -546,6 +657,11 @@
         <item index="1" class="java.lang.String" itemvalue="Application.OrgDome" />
         <item index="2" class="java.lang.String" itemvalue="Application.RunGraph" />
         <item index="3" class="java.lang.String" itemvalue="Application.DateUtil" />
+=======
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.RunGraph" />
+>>>>>>> 2de32432abfd99b06a1e1057b7f0f615f14e319d
       </list>
     </recent_temporary>
   </component>
@@ -568,6 +684,7 @@
       <workItem from="1533977560867" duration="2510000" />
       <workItem from="1533993955141" duration="289000" />
       <workItem from="1533994639584" duration="599000" />
+<<<<<<< HEAD
       <workItem from="1534155838031" duration="5775000" />
       <workItem from="1534238821501" duration="1859000" />
       <workItem from="1534295437956" duration="2449000" />
@@ -581,6 +698,9 @@
       <workItem from="1535893060377" duration="120000" />
       <workItem from="1535893740505" duration="1929000" />
       <workItem from="1535971493059" duration="659000" />
+=======
+      <workItem from="1534155838031" duration="1867000" />
+>>>>>>> 2de32432abfd99b06a1e1057b7f0f615f14e319d
     </task>
     <task id="LOCAL-00001" summary="0809 2324">
       <created>1533828400412</created>
@@ -600,18 +720,27 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="40735000" />
+=======
+    <option name="totallyTimeSpent" value="7283000" />
+>>>>>>> 2de32432abfd99b06a1e1057b7f0f615f14e319d
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
+=======
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31378937" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+>>>>>>> 2de32432abfd99b06a1e1057b7f0f615f14e319d
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13432837" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26086956" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
@@ -619,6 +748,15 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22867803" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15991472" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934782" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20309168" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> 2de32432abfd99b06a1e1057b7f0f615f14e319d
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -630,7 +768,10 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+<<<<<<< HEAD
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31304348" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+=======
+>>>>>>> 2de32432abfd99b06a1e1057b7f0f615f14e319d
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -647,6 +788,7 @@
     <option name="LAST_COMMIT_MESSAGE" value="0813 1858" />
   </component>
   <component name="XDebuggerManager">
+<<<<<<< HEAD
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="scala-line">
@@ -945,6 +1087,12 @@
         </state>
       </provider>
     </entry>
+=======
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+>>>>>>> 2de32432abfd99b06a1e1057b7f0f615f14e319d
     <entry file="file://$PROJECT_DIR$/graphx/src/main/scala/Test.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -957,9 +1105,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="920">
           <caret line="40" column="44" lean-forward="false" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="44" />
+<<<<<<< HEAD
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+=======
+          <folding />
+>>>>>>> 2de32432abfd99b06a1e1057b7f0f615f14e319d
         </state>
       </provider>
     </entry>
@@ -967,6 +1119,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="644">
           <caret line="28" column="47" lean-forward="false" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
+<<<<<<< HEAD
+=======
+          <folding />
+>>>>>>> 2de32432abfd99b06a1e1057b7f0f615f14e319d
         </state>
       </provider>
     </entry>
@@ -974,6 +1130,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
           <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+<<<<<<< HEAD
+=======
+          <folding />
+>>>>>>> 2de32432abfd99b06a1e1057b7f0f615f14e319d
         </state>
       </provider>
     </entry>
@@ -989,9 +1149,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="920">
           <caret line="40" column="44" lean-forward="false" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="44" />
+<<<<<<< HEAD
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+=======
+          <folding />
+>>>>>>> 2de32432abfd99b06a1e1057b7f0f615f14e319d
         </state>
       </provider>
     </entry>
@@ -999,6 +1163,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="644">
           <caret line="28" column="47" lean-forward="false" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
+<<<<<<< HEAD
+=======
+          <folding />
+>>>>>>> 2de32432abfd99b06a1e1057b7f0f615f14e319d
         </state>
       </provider>
     </entry>
@@ -1006,6 +1174,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
           <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+<<<<<<< HEAD
+=======
+          <folding />
+>>>>>>> 2de32432abfd99b06a1e1057b7f0f615f14e319d
         </state>
       </provider>
     </entry>
@@ -1021,9 +1193,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="920">
           <caret line="40" column="44" lean-forward="false" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="44" />
+<<<<<<< HEAD
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+=======
+          <folding />
+>>>>>>> 2de32432abfd99b06a1e1057b7f0f615f14e319d
         </state>
       </provider>
     </entry>
@@ -1031,6 +1207,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="644">
           <caret line="28" column="47" lean-forward="false" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
+<<<<<<< HEAD
+=======
+          <folding />
+>>>>>>> 2de32432abfd99b06a1e1057b7f0f615f14e319d
         </state>
       </provider>
     </entry>
@@ -1046,9 +1226,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="920">
           <caret line="40" column="44" lean-forward="false" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="44" />
+<<<<<<< HEAD
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+=======
+          <folding />
+>>>>>>> 2de32432abfd99b06a1e1057b7f0f615f14e319d
         </state>
       </provider>
     </entry>
@@ -1056,10 +1240,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="644">
           <caret line="28" column="47" lean-forward="false" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
+<<<<<<< HEAD
+=======
+          <folding />
+>>>>>>> 2de32432abfd99b06a1e1057b7f0f615f14e319d
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore" />
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/graphx/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="644">
@@ -1085,10 +1274,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="10" selection-end-column="35" />
+=======
+    <entry file="file://$PROJECT_DIR$/graphx/src/main/scala/Test.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="27" lean-forward="false" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+>>>>>>> 2de32432abfd99b06a1e1057b7f0f615f14e319d
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="jar://D:/.m2/repository/org/apache/spark/spark-graphx_2.11/2.1.2/spark-graphx_2.11-2.1.2.jar!/org/apache/spark/graphx/Graph.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
@@ -1107,10 +1303,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1081">
           <caret line="65" column="44" lean-forward="false" selection-start-line="65" selection-start-column="27" selection-end-line="65" selection-end-column="44" />
+=======
+    <entry file="file://$PROJECT_DIR$/graphx/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="28" column="47" lean-forward="false" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
+>>>>>>> 2de32432abfd99b06a1e1057b7f0f615f14e319d
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/util/util.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -1187,28 +1390,84 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="6" column="9" lean-forward="false" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+=======
+    <entry file="file://$PROJECT_DIR$/util/src/main/java/DateUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="13" column="7" lean-forward="false" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+>>>>>>> 2de32432abfd99b06a1e1057b7f0f615f14e319d
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/data/followers.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+>>>>>>> 2de32432abfd99b06a1e1057b7f0f615f14e319d
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/graphx/src/main/scala/OrgDome.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="10" column="25" lean-forward="false" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/graphx/src/main/scala/RunGraph.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="30" column="75" lean-forward="true" selection-start-line="30" selection-start-column="75" selection-end-line="30" selection-end-column="75" />
+          <folding>
+            <element signature="e#2288#2424#0" expanded="false" />
+            <element signature="e#2335#2418#0" expanded="false" />
+            <element signature="e#2925#2966#0" expanded="false" />
+            <element signature="e#2967#3039#0" expanded="false" />
+            <element signature="e#3447#3508#0" expanded="false" />
+            <element signature="e#3819#3899#0" expanded="false" />
+            <element signature="e#4437#4492#0" expanded="false" />
+            <element signature="e#4898#5299#0" expanded="false" />
+            <element signature="e#5143#5233#0" expanded="false" />
+            <element signature="e#5303#6038#0" expanded="false" />
+            <element signature="e#5496#5533#0" expanded="false" />
+            <element signature="e#5608#5731#0" expanded="false" />
+            <element signature="e#5650#5680#0" expanded="false" />
+            <element signature="e#5686#5724#0" expanded="false" />
+            <element signature="e#5864#6015#0" expanded="false" />
+            <element signature="e#5888#6009#0" expanded="false" />
+            <element signature="e#5894#6009#0" expanded="false" />
+            <element signature="e#5919#6001#0" expanded="false" />
+            <element signature="e#5931#5963#0" expanded="false" />
+            <element signature="e#5969#6001#0" expanded="false" />
+            <element signature="e#6042#6343#0" expanded="false" />
+            <element signature="e#6132#6271#0" expanded="false" />
+            <element signature="e#6186#6265#0" expanded="false" />
+            <element signature="e#6347#6480#0" expanded="false" />
+            <element signature="e#6484#6775#0" expanded="false" />
+            <element signature="e#6701#6737#0" expanded="false" />
+            <element signature="e#6743#6771#0" expanded="false" />
+            <element signature="e#6779#6984#0" expanded="false" />
+            <element signature="e#6988#7444#0" expanded="false" />
+            <element signature="e#7315#7396#0" expanded="false" />
+            <element signature="e#7448#7663#0" expanded="false" />
+            <element signature="e#7667#8336#0" expanded="false" />
+            <element signature="e#7705#7788#0" expanded="false" />
+            <element signature="e#8340#8619#0" expanded="false" />
+>>>>>>> 2de32432abfd99b06a1e1057b7f0f615f14e319d
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/graphx/src/main/scala/ComprehensiveExample.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="641">
@@ -1217,6 +1476,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> 2de32432abfd99b06a1e1057b7f0f615f14e319d
   </component>
   <component name="masterDetails">
     <states>
@@ -1270,7 +1531,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
+<<<<<<< HEAD
           <last-edited>sql</last-edited>
+=======
+          <last-edited>graphx</last-edited>
+>>>>>>> 2de32432abfd99b06a1e1057b7f0f615f14e319d
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1295,7 +1560,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+<<<<<<< HEAD
           <last-edited>scala-sdk-2.11.8</last-edited>
+=======
+          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
+>>>>>>> 2de32432abfd99b06a1e1057b7f0f615f14e319d
           <splitter-proportions>
             <option name="proportions">
               <list>
