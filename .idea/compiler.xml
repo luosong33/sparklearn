@@ -8,16 +8,20 @@
         <outputRelativeToContentRoot value="true" />
         <module name="graphx" />
         <module name="sql" />
+        <module name="streaming" />
+        <module name="test" />
         <module name="util" />
         <module name="WordCount" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
-      <module name="graphx" target="1.8" />
-      <module name="sparklearn" target="1.8" />
-      <module name="sql" target="1.8" />
-      <module name="util" target="1.8" />
-      <module name="WordCount" target="1.8" />
+      <module name="graphx" target="1.8.0_121" />
+      <module name="sparklearn" target="1.5" />
+      <module name="sql" target="1.5" />
+      <module name="streaming" target="1.5" />
+      <module name="test" target="1.5" />
+      <module name="util" target="1.5" />
+      <module name="WordCount" target="1.8.0_121" />
     </bytecodeTargetLevel>
   </component>
 </project>

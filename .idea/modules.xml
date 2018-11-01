@@ -6,6 +6,8 @@
       <module fileurl="file://$PROJECT_DIR$/graphx/graphx.iml" filepath="$PROJECT_DIR$/graphx/graphx.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/sparklearn.iml" filepath="$PROJECT_DIR$/.idea/sparklearn.iml" />
       <module fileurl="file://$PROJECT_DIR$/sql/sql.iml" filepath="$PROJECT_DIR$/sql/sql.iml" />
+      <module fileurl="file://$PROJECT_DIR$/streaming/streaming.iml" filepath="$PROJECT_DIR$/streaming/streaming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
       <module fileurl="file://$PROJECT_DIR$/util/util.iml" filepath="$PROJECT_DIR$/util/util.iml" />
     </modules>
   </component>
