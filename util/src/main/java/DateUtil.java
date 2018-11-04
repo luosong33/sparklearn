@@ -13,13 +13,9 @@ public class DateUtil {
      * @date 2017-4-1
      */
     public static List<String> getBetweenDates(String begin_, String end_) {
-<<<<<<< HEAD
         /*int [][] bigArr = {{1,3,5},{1}};
         int i = bigArr[1][2];*/
         List<String> result = new ArrayList<>();
-=======
-        List<String> result = new ArrayList<String>();
->>>>>>> 2de32432abfd99b06a1e1057b7f0f615f14e319d
         Calendar tempStart = Calendar.getInstance();
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
         Date begin = null;
